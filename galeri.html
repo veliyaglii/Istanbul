@@ -1,0 +1,71 @@
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOTOGALERİ</title>
+    <link rel="stylesheet" href="stil.css">
+    
+    <style>
+       
+    </style>
+
+</head>
+<body>
+    <div id="anadiv">
+<div id="header">
+    
+<div id="logo"><img src="images (7).png" alt=""></div>
+<div id="menu">
+    <a href="index.html">ANASAYFA</a>
+    <a href="gezi.html">GEZİLİCEK YERLER</a>
+    <a href="galeri.html">FOTO GALERİ</a>
+    <a href="tarihce.html">TARİHCE</a>
+</div>
+    
+
+</div>
+<div id="conteiner"> 
+    <div class="gallery"> <img src="KULELİ ASKERİ LİSESİ.jfif" alt="" onclick="openModal(this)">
+        <img src="istockphoto-485981826-612x612.jpg" alt="" onclick="openModal(this)">
+        <img src="Bozdoģan_Kemeri_-_panoramio.jpg" alt="" onclick="openModal(this)">
+        <img src="ayasofya-muzesi-hakkinda-bilmeniz-gerekenler.jpg" alt="" onclick="openModal(this)">
+        <img src="Adalar_5546.jpg" alt="" onclick="openModal(this)">
+        <img src="2-hattı-haydarpasa-tren-istasyonu-gari.jpg" alt="" onclick="openModal(this)">
+        <img src="4-min-3-scaled.jpeg" alt="" onclick="openModal(this)">
+        <img src="shutterstock_391498144-1000x550.jpeg" alt="" onclick="openModal(this)">
+        <img src="497b105ce60545779add7c639273f4ea.jpeg" alt="" onclick="openModal(this)">
+        <img src="621ca8e0be8a98616ad752c5_kariye-cam-mainpage.jpeg" alt="" onclick="openModal(this)">
+        <img src="301807.jpg" alt="" onclick="openModal(this)">
+        <img src="galata-kulesi-scaled.jpg" alt="" onclick="openModal(this)">
+
+    </div>
+    <div class="modal" id="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img id="modalImage">
+    </div>
+    
+    <script>
+        function openModal(img) {
+            document.getElementById("modal").style.display = "flex";
+            document.getElementById("modalImage").src = img.src;
+        }
+    
+        function closeModal() {
+            document.getElementById("modal").style.display = "none";
+        }
+    </script>
+    
+    
+</div>
+
+
+<div id="footer">
+<p>Bu sayfa Veli Yağlı tarafından düzenlenmiştir.</p>
+
+</div>
+
+
+
+    </div>
+</body>
+</html>
